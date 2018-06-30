@@ -1,0 +1,13 @@
+*.*.js.map
+*.css.map
+*.js.map
+*.json
+*.min.*
+*.pyc
+*.sql
+*.svg
+main.*.js
+
+build/
+dist/
+node_modules/

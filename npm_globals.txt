@@ -1,0 +1,16 @@
+babel-eslint
+create-react-app
+create-react-native-app
+eslint
+eslint-config-airbnb
+eslint-plugin-import
+eslint-plugin-json
+eslint-plugin-node
+eslint-plugin-react
+gatsby-cli
+jest-cli
+serve
+stylelint
+stylelint-config-standard
+webpack
+webpack-bundle-size-analyzer

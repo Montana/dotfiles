@@ -1,0 +1,71 @@
+[user]
+  name = Montana Mendy
+  email = montana@getprowl.com
+[github]
+  user = Montana
+[alias]
+  a = add
+  b = branch
+  bo = branch
+  branches = branch
+  c = commit
+  co = checkout
+  up = checkout
+  di = diff
+  vimdiff = difftool --tool=vimdiff --no-prompt
+  fin = finish
+  last = diff-tree --no-commit-id --name-status -r HEAD~1..HEAD
+  glog = log --graph
+  master = checkout master
+  o = log --graph origin..HEAD
+  out = log --graph origin..HEAD
+  outgoing = log --graph origin..HEAD
+  pl = pull
+  ps = push
+  st = status
+  sum = status
+  unstage = reset HEAD
+  revert = checkout HEAD
+  uncommit = reset --soft HEAD^
+[branch]
+  autosetuprebase = always
+[color]
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
+  grep = auto
+  ui = 1
+[color "diff"]
+  meta = yellow bold
+  frag = magenta
+  old = red reverse white
+  new = green reverse white
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+[diff]
+  renames = copies
+  mnemonicprefix = true
+  tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[help]
+  autocorrect = 1
+[log]
+  decorate = full
+[merge]
+  tool = vscode
+[mergtool]
+  prompt = false
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+  prompt = false
+[push]
+  default = current
+[rerere]
+  enabled = 1
+[url "http://"]
+  insteadOf = git://
+[url "https://"]
+  insteadOf = git://

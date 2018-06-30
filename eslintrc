@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "import",
+  "json",
+  "node",
+  "react"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "jquery": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-console": "off"
+  },
+  "globals": {
+    "chrome": true,
+    "bytegain": true,
+    "fbq": true,
+    "ga": true,
+    "Intercom": true
+  }
+}
