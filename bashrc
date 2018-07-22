@@ -77,7 +77,7 @@ fi
 # Node
 # --------------------------------------------------------------------
 # Node Virtual Machine
-export NVM_DIR="/Users/zhangb/.nvm"
+export NVM_DIR="/Users/montana/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
