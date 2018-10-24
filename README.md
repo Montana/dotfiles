@@ -1,4 +1,4 @@
-Dotfiles
+Montana Mendy's Dotfiles
 ========
 
 How to install:
